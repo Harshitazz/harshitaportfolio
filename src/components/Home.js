@@ -5,7 +5,7 @@ const Home=(props)=>{
     return(
         <div className="container1">
             <div >
-            <img className="profilepic" src={require("./pictures/Screenshot_2024-01-20_234928-removebg-preview.png")} alt="harshita" style={{height:'45rem',marginLeft:"20px"}} />
+            <img className="profilepic" src={require("./pictures/Screenshot_2024-01-20_234928-removebg-preview.png")} alt="harshita" />
             </div>
             
             <div id="home" className=" card">
