@@ -14,7 +14,6 @@ import Project from "./components/Project";
 const App = () => {
   return (
     <BrowserRouter>
-    <div id="page">
       <MainNavigation />
       <Routes>
           <Route exact path="/" element={<Home/> } />
@@ -23,7 +22,6 @@ const App = () => {
           <Route exact path="/projects" element={<Project/>} />
       </Routes>
       
-    </div>
     </BrowserRouter>
   );
 };

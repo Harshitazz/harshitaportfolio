@@ -63,33 +63,20 @@
     height:43rem;
     margin-left:20px;
   }
-  @media (max-width: 1150px) {
+  @media (max-width: 850px) {
       .card {
-        width: 30rem;
+        width: 90%;
         padding: 20px;
-          box-shadow: 0 4px 8px 0 rgba(195, 186, 186, 0.2);
-          text-align: center;
-          background-color: rgb(164, 135, 151);
-          transition: transform .2s;
         }
       .container1{
-        justify-content: center;
-        margin: auto;
-        display: block;
-      
+        display: inline-block;
+        width: min-content;
+        text-align: center;
       }
       .profilepic{
-        height:43rem;
-        margin-left:20px;
-        position: relative;
-        left: 15%;
+        height:20rem;
       }
     
   }
-  @media (max-width: 780px){
-    .card{
-      position: relative;
-        left: 30%;
-    }
-  }
+
 

@@ -71,4 +71,25 @@
 
   /* Optional: Add styling to the flipped card */
  
+@media (max-width:570px) {
+  .card1 {
+    width: 25rem;
+    height:10rem;
+  }
+  .extra{
+    height:10rem;
+    margin: auto;
+    }
+}
 
+@media (max-width:480px) {
+  .card1 {
+    width: 20rem;
+    height:2rem;
+  }
+  .extra{
+    height:2rem;
+    margin: auto;
+    }
+    
+}
