@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import './Home.css'
 import { Link } from "react-router-dom";
 const Home=(props)=>{
@@ -25,6 +25,37 @@ const Home=(props)=>{
             
         </div>
     );
+};
+
+export default Home;*/
+
+import React from "react";
+import "./Home.css"; // Import your CSS file for styling
+import imageurl from "./pictures/1-removebg-preview.png";
+
+const Home = () => {
+  return (
+    <div className="hero" style={{ backgroundImage: `url(${imageurl})` }}>
+      <div className="overlay"></div>
+      <div className="hero-content">
+        <div className="content">
+          <h1>Harshita Pathak</h1>
+          <p className="title">Front-end develpoer</p>
+          <p >
+          A passionate React developer dedicated to crafting engaging and
+            dynamic user experiences on the web.
+          </p>
+          <ul>
+
+                    <li> <a href="https://www.linkedin.com/in/harshita-pathak-a557b6256/"  ><i className="fa fa-linkedin fa-lg" style={{padding: '5px',  maxWidth: '40%'}} ></i></a></li>
+                    <li><a href="mailto:pathakharshita04@gmail.com" ><i className="fa fa-envelope fa-lg"></i></a></li>
+
+                    <li><a href="https://github.com/Harshitazz" ><i className="fa fa-github fa-lg"></i></a></li>
+                </ul>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
