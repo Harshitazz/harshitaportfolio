@@ -12,7 +12,7 @@ const Contact=()=>{
       const onSubmit = (data) => console.log(data);
     return(
         <div className="body">
-            <h2 style={{color:"white", margin:'60px'}} >Submit the form below to get in touch with me</h2>
+            <h2 className='contactheading' >Submit the form below to get in touch with me</h2>
             <div class="containercontact">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <label for="fname" style={{fontFamily:"sans-serif",fontSize:"1.2rem"}}>Name</label>

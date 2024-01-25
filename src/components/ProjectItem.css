@@ -169,6 +169,7 @@
 
 .projects-container {
   width: 100%;
+  margin-top: 2rem;
 }
 .projects-grid {
   display: grid;
@@ -193,6 +194,7 @@
   .app-container{
     width: 100%;
     margin:0px;
+    margin-top: 4rem;
   }
   .fancy-card{
     width: 90%;
