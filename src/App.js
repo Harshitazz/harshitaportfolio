@@ -4,7 +4,7 @@ import {
   BrowserRouter,
   Route,
   Navigate,
-  Routes,
+  Routes
 } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -16,10 +16,11 @@ const App = () => {
     <BrowserRouter>
       <MainNavigation />
       <Routes>
-          <Route exact path="/" element={<Home/> } />
+          
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/contact" element={<Contact/>} />
           <Route exact path="/projects" element={<Project/>} />
+          <Route exact path="/" element={<Home/> } />
       </Routes>
       
     </BrowserRouter>
