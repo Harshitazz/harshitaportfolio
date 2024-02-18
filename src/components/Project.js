@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import background1 from "./pictures/project1.png";
 import background2 from "./pictures/project2.png";
 import background3 from "./pictures/project3.png";
+import background4 from "./pictures/project4.png";
 
 import './ProjectItem.css'
 const Project = () => {
@@ -14,6 +15,12 @@ const Project = () => {
       <div
         className="projects-grid"
       >
+        <ProjectItem
+          title="Place-Sight"
+          imageUrl={background4}
+          githuburl="https://github.com/Harshitazz/Social-Site"
+          tech="TechStack- MERN stack | CSS | HTML | bootstrap"
+        />
         <ProjectItem
           
           title="Podcaster"
