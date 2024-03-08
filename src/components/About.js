@@ -5,16 +5,19 @@ const About = () => {
   return (
     
     <div className="containerabout">
-      
-      <h1 className="heading"
+      {/* <div className="overlay"></div> */}
+      <h1 className="heading1"
         
       >
-        🚀 Welcome to My React World!
+        ABOUT <span>ME</span>
       </h1>
-      <h4 style={{ color: "azure" }}>Greetings! I'm Harshita pathak, I am proficient in languages like C ,C++. A DSA learner. I know languages like HTML, CSS, Javascript, React.js, Node.js (MERN) and bootstrap etc </h4>
+      <h4 style={{ color: "azure", margin:'2px'}}>I am proficient in languages like C++ and Python.</h4>
+      <h4 style={{ color: "azure" , margin:'0.5px'}}>A DSA learner.</h4>
+      <h4 style={{ color: "azure" , margin:'0.5px'}}>I know languages like HTML, CSS, Javascript, MERN Stack and git etc </h4>
+      <h4 style={{ color: "azure" , margin:'0.5px'}}>I'm Also A Passionate Graphic Designer With Skills Of Figma .</h4>
+
       
-      
-      <h4 style={{ color: "azure" }}>Some of the skills i have learned are:</h4>
+      <h4 style={{ color: "azure" }}><span>My </span>Skills:</h4>
       <div id="skills">
         <div class="iconblock">
           <img
@@ -40,10 +43,49 @@ const About = () => {
             alt="."
           />
         </div>
+        
         <div class="iconblock">
           <img
             class="skillicon"
             src={require("./pictures/react.png")}
+            alt="."
+          />
+        </div>
+
+        <div class="iconblock">
+          <img
+            class="skillicon"
+            src={require("./pictures/icons8-nodejs-240.png")}
+            alt="."
+          />
+        </div>
+        
+        <div class="iconblock">
+          <img
+            class="skillicon"
+            src={require("./pictures/icons8-express-js-150.png")}
+            alt="."
+          />
+        </div>
+
+        <div class="iconblock">
+          <img
+            class="skillicon"
+            src={require("./pictures/icons8-mongodb-240.png")}
+            alt="."
+          />
+        </div>
+        <div class="iconblock">
+          <img
+            class="skillicon"
+            src={require("./pictures/icons8-figma-240.png")}
+            alt="."
+          />
+        </div>
+        <div class="iconblock">
+          <img
+            class="skillicon"
+            src={require("./pictures/python.png")}
             alt="."
           />
         </div>

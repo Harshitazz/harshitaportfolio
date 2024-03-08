@@ -10,7 +10,11 @@ const Project = () => {
   return (
     <>
     <div className="app-container">
-      <h1>My Projects</h1>
+    <h1 className="heading1"
+        
+        >
+           <span>MY </span>PROJECTS
+        </h1>
       <div className="projects-container">
       <div
         className="projects-grid"

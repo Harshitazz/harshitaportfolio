@@ -1,8 +1,11 @@
 .containerabout{
-    height:100vh;
-    width: 70%;
+    /* height:100vh; */
+    width: 80%;
     margin:auto;
-    margin-top: 60px;
+    margin-top: 40px;
+  }
+  span{
+    color: rgb(94, 7, 109);
   }
   #skills{
     display: grid;
@@ -24,7 +27,6 @@
   }
   .skillicon {
 
-    height: auto;
   
     max-width: 50%;
   
@@ -47,6 +49,10 @@
   border-radius: 20px;
 
   }
+  .heading1{
+    padding: 3px;
+    text-decoration: underline;
+  }
   .heading:before {
     content: "";
     position: absolute;
@@ -65,11 +71,10 @@
   @media (max-width: 780px){
     
     .containerabout{
-      height:100vh;
-      width: 100%;
-      display: inline-block;
+      width: 90%;
+      
       margin:auto;
-      margin-top: 60px;
+      justify-content: center;
     }
     .containerabout h4{
       font-size: 15px;
@@ -91,5 +96,10 @@
       margin: auto;
       line-height: 40px;
       
+    }
+  }
+  @media screen and (max-height:867px) and (max-width:385px){
+    .containerabout{
+      margin-top: 30vh;
     }
   }
