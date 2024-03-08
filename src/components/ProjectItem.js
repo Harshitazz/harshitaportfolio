@@ -5,7 +5,7 @@ import './ProjectItem.css'; // Import your CSS file for the Card component
 
 const ProjectItem = ({ imageUrl, title, githuburl, tech }) => {
   return (
-    <div className="fancy-card" style={{marginBottom:'1rem'}}>
+    <div className="fancy-card" style={{margin:'1rem'}}>
       <div className="card-image-container">
         <img src={imageUrl} alt="Card Image" className="card-image" />
       </div>

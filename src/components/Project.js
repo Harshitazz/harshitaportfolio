@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <>
     <div className="app-container">
-    <h1 className="heading1"
+    <h1 className="heading1 heading2" 
         
         >
            <span>MY </span>PROJECTS
