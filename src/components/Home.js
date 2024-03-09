@@ -37,8 +37,10 @@ import Project from "./Project";
 const Home = () => {
   return (
     <>
+    
       {/* <div className="hero" style={{ backgroundImage: `url(${imageurl})` }}> */}
       <div className="hero">
+      
         <div className="row row1" >
           <div className="col-lg-6 image">
             <img
@@ -49,6 +51,7 @@ const Home = () => {
           </div>
 
           <div className="hero-content col-lg-6">
+          <div class="sphere"></div>
             <div className="content">
               <h1 className="name">Harshita Pathak</h1>
               <p className="title">Full-Stack web develpoer</p>
@@ -59,6 +62,7 @@ const Home = () => {
                 Node.js, I bring creativity and innovation to every project I
                 undertake.
               </p>
+              <div class="sphere1"></div>
               <ul>
                 <li>
                   {" "}
