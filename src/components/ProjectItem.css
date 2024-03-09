@@ -204,13 +204,12 @@
     margin-top: 2rem;
   }
 }
-/* @media(max-width: 500px){
+@media(max-width: 660px){
   .app-container{
-    width: 100%;
-    margin:0px;
-    margin-top: 4rem;
+    
+    margin: 1rem;
   }
   .fancy-card{
     width: 90%;
   }
-} */
+}

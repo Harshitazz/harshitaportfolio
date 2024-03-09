@@ -109,7 +109,7 @@ p {
   }
   .hero-content{
     text-align: center;
-    justify-content: center;
+    justify-content: center;    height: 9%;
     /* display: flex; */
   }
   .row1{
@@ -128,4 +128,7 @@ p {
     padding: 10px 10px;
     font-size: 15px;
   }
+}
+@media screen (max-height:1040px) and (max-width:620px){
+
 }

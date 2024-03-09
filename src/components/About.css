@@ -98,8 +98,8 @@
       
     }
   }
-  @media screen and (max-height:867px) and (max-width:385px){
+  @media screen and (max-height:1090px) and (max-width:412px){
     .containerabout{
-      margin-top: 30vh;
+      margin-top: 8vh;
     }
   }
