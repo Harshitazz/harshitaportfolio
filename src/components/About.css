@@ -74,7 +74,7 @@
       width: 90%;
       
       margin:auto;
-      margin-top: 10vh;
+      /* margin-top: 10vh; */
       justify-content: center;
     }
     .containerabout h4{
@@ -101,6 +101,6 @@
   }
   @media screen and (max-height:1090px) and (max-width:412px){
     .containerabout{
-      margin-top: 10vh;
+      margin-top: 1vh;
     }
   }

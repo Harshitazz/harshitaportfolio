@@ -55,10 +55,11 @@
 .hero {
   /* position: relative;
   height: 100vh;
-  margin-top: 20px;
+  
   background:  left top /cover no-repeat; */
+  margin-top: 20px;
   color: #fff;
-  height: 115vh;
+  height: 100vh;
   align-items: center;
   display: flex;
     justify-content: center;
@@ -124,11 +125,7 @@ p {
 }
 
 @media(max-width:1000px ){
-  .hero{
-    margin-top: 45px;
-    
-    
-  }
+  
   .sphere{
     visibility:hidden;
   }
@@ -137,7 +134,7 @@ p {
   }
   .content{
     margin: 0px;
-    width: 100%;
+    width: 90%;
     background-color: rgb(48, 29, 40);
     border-radius: 5%;
     padding: 10px;
