@@ -57,7 +57,7 @@
   height: 100vh;
   
   background:  left top /cover no-repeat; */
-  margin-top: 20px;
+  margin-top: 1%;
   color: #fff;
   height: 100vh;
   align-items: center;
@@ -161,4 +161,9 @@ p {
     margin: 0px;
   }
 }
-
+@media (max-width: 780px){
+  .hero{
+    height: auto;
+    margin: 2rem;
+  }
+}
