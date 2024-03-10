@@ -14,7 +14,7 @@ import Project from "./components/Project";
 const App = () => {
   return (
     <BrowserRouter>
-      <MainNavigation />
+      {/* <MainNavigation /> */}
       <Routes>
           
           <Route exact path="/about" element={<About/>} />

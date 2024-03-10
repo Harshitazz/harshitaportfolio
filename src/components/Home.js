@@ -36,7 +36,7 @@ import About from "./About";
 import Project from "./Project";
 const Home = () => {
   return (
-    <>
+    <div className="screen">
     
       {/* <div className="hero" style={{ backgroundImage: `url(${imageurl})` }}> */}
       <div className="hero">
@@ -94,7 +94,7 @@ const Home = () => {
       </div>
       <About/>
       <Project/>
-    </>
+    </div>
   );
 };
 
