@@ -43,8 +43,11 @@ const Home = () => {
       
         <div className="row row1" >
           <div className="col-lg-6 image">
+          <div class="sphere2"></div>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/eamgt0crou-202%3A230?alt=media&token=2fe83e96-648d-4ec4-abdf-b2b2923aa3f0"
+
+              src={require("./pictures/Screenshot_2024-01-20_234928-removebg-preview (1).png")}
+              // src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/eamgt0crou-202%3A230?alt=media&token=2fe83e96-648d-4ec4-abdf-b2b2923aa3f0"
               alt="Not Found"
               className="frame img-fluid"
             />

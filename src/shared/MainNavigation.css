@@ -16,8 +16,9 @@
     background: white;
   }
 .main-navigation__title {
+    /* 
+    font-size:xx-large; */
     color: white;
-    font-size:xx-large;
   }
   
   .main-navigation__title a {

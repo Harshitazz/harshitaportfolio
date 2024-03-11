@@ -1,5 +1,5 @@
 .main-header {
-  align-items: center;
+  /* align-items: center;
   background: #4f4e4e;
   box-shadow: 0 2px 6px #00000042;
   display: flex;
@@ -9,7 +9,22 @@
   position: sticky;
   top: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 5; */
+  align-items: center;
+    /* background: #1e1e1e; */
+  background: rgb(173 171 173);
+    
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* max-width: 75rem; */
+    padding: 1rem 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    z-index: 3;
   }
   
   main {

@@ -11,11 +11,7 @@ const About = () => {
       >
         ABOUT <span>ME</span>
       </h1>
-      <h4 style={{ color: "azure", margin:'2px'}}>I am proficient in languages like C++ and Python.</h4>
-      <h4 style={{ color: "azure" , margin:'0.5px'}}>A DSA learner.</h4>
-      <h4 style={{ color: "azure" , margin:'0.5px'}}>I know languages like HTML, CSS, Javascript, MERN Stack and git etc </h4>
-      <h4 style={{ color: "azure" , margin:'0.5px'}}>I'm Also A Passionate Graphic Designer With Skills Of Figma .</h4>
-
+      <p className="aboutcontent">I possess proficiency in both C++ and Python, as well as a strong foundation in data structures and algorithms (DSA). Additionally, I am well-versed in web development languages such as HTML, CSS, and JavaScript, along with expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack. My knowledge extends to version control systems like Git. Moreover, I am a skilled graphic designer with a passion for creating visually appealing designs, utilizing tools like Figma to bring concepts to life.</p>
       
       <h4 style={{ color: "azure" }}><span>My </span>Skills:</h4>
       <div id="skills">

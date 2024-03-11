@@ -12,6 +12,18 @@
     overflow: hidden;
     z-index: -1;
 }
+.sphere2 {
+  position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgba(132, 2, 110, 0.521);    /* filter: blur(30px); */
+    overflow: hidden;
+    z-index: -1;
+}
 .sphere1 {
   position: absolute;
     top: 70%;
@@ -46,9 +58,9 @@
     margin-right:2rem ;
    
   }
-  button:hover, a:hover {
+  /* button:hover, a:hover {
     opacity: 0.7;
-  }
+  } */
 
 
 /**/
@@ -114,22 +126,39 @@ p {
 }
 .btn{
   background: #22030e;
+  border-color: #f9f5f5;
+
   color: #fff;
   padding: 15px 30px;
   font-size: 18px;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: background-color 0.3s ease-in-out;
+}
+.btn:hover{
+  background: #371a35b6;
+    color: white;
+    border-radius: 15px;
 }
 .screen{
   width: 100%;
 }
+.name{
+  color: #22030e;
+}
 
 @media(max-width:1000px ){
-  
+  .btn{
+    background-color: #fff;
+    color: #22030e;
+    text-shadow: #22030e;
+  }
   .sphere{
     visibility:hidden;
   }
   .sphere1{
+    visibility:hidden;
+  }
+  .sphere2{
     visibility:hidden;
   }
   .content{
@@ -154,6 +183,7 @@ p {
   }
   .name{
     font-size: 2rem;
+    color: white;
   }
   .btn{
     padding: 5px 10px;
