@@ -15,7 +15,6 @@ const MainNavigation = props => {
   }
   return (
     <React.Fragment>
-      <SideDrawer show={drawerisopen} onClick={closedrawer}><nav className='main-navigation__drawer-nav'><NavLinks/></nav></SideDrawer>
     <MainHeader>
       
       <button className="main-navigation__menu-btn" onClick={opendrawer}>
@@ -30,6 +29,8 @@ const MainNavigation = props => {
         <NavLinks/> 
       </nav>
     </MainHeader>
+    <SideDrawer show={drawerisopen} onClick={closedrawer}><nav className='main-navigation__drawer-nav'><NavLinks/></nav></SideDrawer>
+
     </React.Fragment>
   );
 };
