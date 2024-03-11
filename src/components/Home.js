@@ -34,6 +34,7 @@ import "./Home.css"; // Import your CSS file for styling
 import imageurl from "./pictures/1-removebg-preview.png";
 import About from "./About";
 import Project from "./Project";
+import ContactForm from "./Contact1";
 const Home = () => {
   return (
     <div className="screen">
@@ -97,6 +98,7 @@ const Home = () => {
       </div>
       <About/>
       <Project/>
+      <ContactForm/>
     </div>
   );
 };

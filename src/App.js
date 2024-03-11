@@ -8,8 +8,9 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from './components/Contact';
 import Project from "./components/Project";
+import ContactForm from "./components/Contact1";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
       <Routes>
           
           <Route exact path="/about" element={<About/>} />
-          <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/contact" element={<ContactForm/>} />
           <Route exact path="/projects" element={<Project/>} />
           <Route exact path="/" element={<Home/> } />
       </Routes>

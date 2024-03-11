@@ -1,5 +1,4 @@
 import React from "react";
-import './Contact.css';
 import { useForm } from "react-hook-form";
 const Contact=()=>{
 
