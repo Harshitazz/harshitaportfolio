@@ -190,10 +190,9 @@ p {
     font-size: 15px;
     margin: 0px;
   }
-}
-@media (max-width: 780px){
   .hero{
     height: auto;
     margin: 2rem;
   }
 }
+
