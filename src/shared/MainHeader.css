@@ -12,8 +12,8 @@
   z-index: 5; */
   align-items: center;
     /* background: #1e1e1e; */
-  background: rgb(173 171 173);
-    
+  /* background: rgb(173 171 173); */
+  background-image: linear-gradient(to right, #989393, #494646);
     display: flex;
     height: 4rem;
     justify-content: space-between;
