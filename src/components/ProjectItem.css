@@ -128,7 +128,6 @@
   padding: 16px;
 }
 .heading2{
-  margin-left: 6rem;
 }
 
 .card-title {
@@ -184,7 +183,6 @@
     padding: 0 16px;
   }
   .heading2{
-    margin-left: 2rem;
   }
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -193,7 +191,6 @@
 @media (max-width: 881px) {
   
   .heading2{
-    margin-left: 0rem;
   }
   .projects-grid {
     grid-template-columns: 1fr;
