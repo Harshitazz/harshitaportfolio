@@ -90,7 +90,7 @@ const Home = () => {
               </ul>
               <div>
                 <a
-                  href="https://heyzine.com/flip-book/610ff8e5c8.html"
+                  href="https://drive.google.com/file/d/1AfT-Ct0a84gidqsChYxJbmTQ-gQG5z-m/view"
                   class="btn mt-2"
                 >
                   MY RESUME
