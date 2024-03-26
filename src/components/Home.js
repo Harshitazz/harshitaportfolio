@@ -38,24 +38,23 @@ import ContactForm from "./Contact1";
 const Home = () => {
   return (
     <div className="screen">
-    
       {/* <div className="hero" style={{ backgroundImage: `url(${imageurl})` }}> */}
       <div className="hero">
-      
-        <div className="row row1" >
+        <div className="row row1">
           <div className="col-lg-6 image">
-          <div class="sphere2"></div>
-            <img
-
-              src={require("./pictures/Screenshot_2024-01-20_234928-removebg-preview (1).png")}
-              // src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/eamgt0crou-202%3A230?alt=media&token=2fe83e96-648d-4ec4-abdf-b2b2923aa3f0"
-              alt="Not Found"
-              className="frame img-fluid"
-            />
+            <div class="sphere2"></div>
+            <div className="image-handler">
+              <img
+                src={require("./pictures/Screenshot_2024-01-20_234928-removebg-preview (1).png")}
+                // src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/eamgt0crou-202%3A230?alt=media&token=2fe83e96-648d-4ec4-abdf-b2b2923aa3f0"
+                alt="Not Found"
+                className="frame img-fluid"
+              />
+            </div>
           </div>
 
           <div className="hero-content col-lg-6">
-          <div class="sphere"></div>
+            <div class="sphere"></div>
             <div className="content">
               <h1 className="name">Harshita Pathak</h1>
               <p className="title">Full-Stack web develpoer</p>
@@ -89,16 +88,21 @@ const Home = () => {
                   </a>
                 </li>
               </ul>
-              <div><a href="https://heyzine.com/flip-book/610ff8e5c8.html" class="btn mt-2">
-                    MY RESUME
-                  </a></div>
+              <div>
+                <a
+                  href="https://heyzine.com/flip-book/610ff8e5c8.html"
+                  class="btn mt-2"
+                >
+                  MY RESUME
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <About/>
-      <Project/>
-      <ContactForm/>
+      <About />
+      <Project />
+      <ContactForm />
     </div>
   );
 };
