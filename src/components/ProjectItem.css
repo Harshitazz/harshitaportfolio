@@ -97,12 +97,14 @@
 */
 
 .fancy-card {
+  
   background-color: #c9c5c5;
   border: 1px solid #ddd;
   border-radius: 16px;
   overflow: hidden;
   width: 390px;
   margin: auto;
+  margin-bottom: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 
@@ -127,8 +129,7 @@
 .card-content {
   padding: 16px;
 }
-.heading2{
-}
+
 
 .card-title {
   margin: 0;
@@ -174,6 +175,7 @@
   margin-top: 2rem;
 }
 .projects-grid {
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -185,7 +187,7 @@
   .heading2{
   }
   .projects-grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     
   }
   .app-container {
@@ -197,16 +199,15 @@
   
   .heading2{
   }
-  .projects-grid {
-    grid-template-columns: 1fr;
-    
-  }
+  
   .fancy-card{
-    width: 90%;
-    margin-top: 2rem;
+    width: 80%;
+    
+    margin: auto;
+    margin-bottom: 10px;
   }
   .app-container {
-    width: 100%;
+    /* width: 100%; */
     
   }
 }
@@ -216,6 +217,10 @@
     
   }
   .fancy-card{
-    width: 90%;
+    width: 80%;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    
   }
 }

@@ -57,7 +57,7 @@ const Home = () => {
             <div class="sphere"></div>
             <div className="content">
               <h1 className="name">Harshita Pathak</h1>
-              <p className="title">Full-Stack web develpoer</p>
+              <p className="title">Full-Stack web developer</p>
               <p className="info">
                 As a dedicated and passionate MERN developer, I am committed to
                 crafting immersive and dynamic user experiences on the web. With
