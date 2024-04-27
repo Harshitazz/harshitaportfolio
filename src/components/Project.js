@@ -4,6 +4,8 @@ import background1 from "./pictures/project1.png";
 import background2 from "./pictures/project2.png";
 import background3 from "./pictures/project3.png";
 import background4 from "./pictures/project4.png";
+import background5 from "./pictures/project5.png";
+
 
 import './ProjectItem.css'
 const Project = () => {
@@ -19,6 +21,13 @@ const Project = () => {
       <div
         className="projects-grid"
       >
+        <ProjectItem
+          title="We-Chat"
+          imageUrl={background5}
+          githuburl="https://we-chat-9doc.onrender.com
+          "
+          tech="TechStack- Socketio| MERN | tailwind CSS | JWT | git"
+        />
         <ProjectItem
           title="Place-Sight"
           imageUrl={background4}
