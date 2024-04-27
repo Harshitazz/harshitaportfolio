@@ -90,7 +90,7 @@ const Home = () => {
               </ul>
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1n6AC3qPEIntC50-qNtsAz6DXoHMBnmIC/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1cTTQOaicB90xvio55Bz344C4wERpwH6M/view?usp=drive_link"
                   class="btn mt-2"
                 >
                   MY RESUME
