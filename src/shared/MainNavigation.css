@@ -1,12 +1,11 @@
 .main-navigation__menu-btn {
-    width: 2rem;
+    /* width: 2rem; */
     height: 2rem;
     background: transparent;
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right: 2rem;
     cursor: pointer;
   }
   .main-navigation__menu-btn span {
