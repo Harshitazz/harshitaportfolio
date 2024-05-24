@@ -11,8 +11,8 @@ const About = () => {
       >
         ABOUT <span>ME</span>
       </h1>
-      <p className="aboutcontent">I possess proficiency in both C++ and Python, as well as a strong foundation in data structures and algorithms (DSA). </p>
-      <p className="aboutcontent">Additionally, I am well-versed in web development languages such as HTML, CSS, and JavaScript, along with expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack. </p>
+      <p className="aboutcontent">I am well-versed in web development languages such as HTML, CSS, and JavaScript, along with expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack.</p>
+      <p className="aboutcontent">Additionally, I possess proficiency in both C++ and Python, as well as a strong foundation in data structures and algorithms (DSA).  </p>
       <p className="aboutcontent">My knowledge extends to version control systems like Git. Moreover, I am a skilled graphic designer with a passion for creating visually appealing designs, utilizing tools like Figma to bring concepts to life.</p>
       <h4 style={{ color: "azure" }}><span>My </span>Skills:</h4>
       <div id="skills">

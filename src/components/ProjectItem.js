@@ -3,7 +3,7 @@
 import React from 'react';
 import './ProjectItem.css'; // Import your CSS file for the Card component
 
-const ProjectItem = ({ imageUrl, title, githuburl, tech }) => {
+const ProjectItem = ({ imageUrl, title, githuburl, tech ,url}) => {
   return (
     <div className="fancy-card" >
       <div className="card-image-container">
@@ -13,7 +13,10 @@ const ProjectItem = ({ imageUrl, title, githuburl, tech }) => {
         <h2 className="card-title">{title}</h2>
         <h5 className=" my-3" style={{fontSize:'15px'}}>{tech}</h5>
         <div className="card-buttons">
+          {url ?<a className="button1" href={githuburl} style={{color:'white'}} >LIVE SITE</a>: <div></div> }
           <a className="button1" href={githuburl} style={{color:'white'}} >VIEW CODE</a>
+
+          
         </div>
       </div>
     </div>

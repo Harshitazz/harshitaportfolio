@@ -27,12 +27,14 @@ const Project = () => {
           githuburl="https://we-chat-9doc.onrender.com
           "
           tech="TechStack- Socketio| MERN | tailwind CSS | JWT | git"
+          url='https://we-chat-9doc.onrender.com'
         />
         <ProjectItem
           title="Place-Sight"
           imageUrl={background4}
           githuburl="https://github.com/Harshitazz/Social-Site"
           tech="TechStack- MERN stack | CSS | HTML | bootstrap"
+          url='https://placesight.web.app/'
         />
         <ProjectItem
           
